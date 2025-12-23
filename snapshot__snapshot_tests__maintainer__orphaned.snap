@@ -1,11 +1,10 @@
 ---
 source: repology-webapp/tests/snapshot_tests/maintainer.rs
 expression: response.as_snapshot().unwrap()
-snapshot_kind: text
 ---
 Status: 404
 Header: content-type: text/html
-Header: content-length: 4304
+Header: content-length: 4295
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -71,7 +70,7 @@ Header: content-length: 4304
 <div class="container">
 
 <div class="alert alert-warning" role="alert">
-	<p>Sorry, but Repology no longer knows maintainer <strong>orphaned@example.com</strong> since <time class="tzfix_time" datetime="2024-01-01T00:00+0000">2024-01-01 00:00</time><span class="tzfix_zone"> (UTC)</span> (more than a year ago).</p>
+	<p>Sorry, but Repology no longer knows maintainer <strong>orphaned@example.com</strong> since <time class="tzfix_time" datetime="2024-01-01T00:00+0000">2024-01-01 00:00</time><span class="tzfix_zone"> (UTC)</span> (2 years ago).</p>
 	<p>Some of the reasons which may have caused this:</p>
 	<ul>
 		<li>The maintainer no longer maintains any packages.</li>

@@ -1,11 +1,10 @@
 ---
 source: repology-webapp/tests/snapshot_tests/log.rs
 expression: response.as_snapshot().unwrap()
-snapshot_kind: text
 ---
 Status: 200
 Header: content-type: text/html
-Header: content-length: 3491
+Header: content-length: 3482
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -79,7 +78,7 @@ Header: content-length: 3491
 <div class="container">
 
 
-	<p>Running for <b>more than a year</b></p>
+	<p>Running for <b>2 years</b></p>
 
 	<p>
 		<a href="/log/1?autorefresh=1" rel="nofollow">Enable</a> autorefresh.</p>

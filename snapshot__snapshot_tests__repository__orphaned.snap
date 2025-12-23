@@ -1,11 +1,10 @@
 ---
 source: repology-webapp/tests/snapshot_tests/repository.rs
 expression: response.as_snapshot().unwrap()
-snapshot_kind: text
 ---
 Status: 404
 Header: content-type: text/html
-Header: content-length: 3900
+Header: content-length: 3891
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -72,7 +71,7 @@ Header: content-length: 3900
 
 <div class="alert alert-warning" role="alert">
 	<p>Sorry, but Repology no longer tracks repository <strong>Orphaned</strong>.</p>
-	<p>Last time Repology has processed this repository was <time class="tzfix_time" datetime="2024-01-01T00:00+0000">2024-01-01 00:00</time><span class="tzfix_zone"> (UTC)</span> (more than a year ago).</p>
+	<p>Last time Repology has processed this repository was <time class="tzfix_time" datetime="2024-01-01T00:00+0000">2024-01-01 00:00</time><span class="tzfix_zone"> (UTC)</span> (2 years ago).</p>
 	<p>Some of the reasons which may have caused this:</p>
 	<ul>
 		<li>The repository has reached it's end of life, is no longer updated or supported, should no longer be used, and has probably disappeared from the mirrors. There may be a newer version of this repository available though, check <a href="/repositories/statistics">the list</a>.</li>
