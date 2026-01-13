@@ -1,6 +1,6 @@
 ---
 source: repology-webapp/tests/snapshot_tests/repository.rs
-expression: response.as_snapshot().unwrap()
+expression: response.as_text_snapshot().unwrap()
 ---
 Status: 404
 Header: content-type: text/html
@@ -91,7 +91,7 @@ Header: content-length: 3891
 			<a href="https://github.com/repology/repology-rules">ruleset</a>
 		</p>
 		<p>
-			Copyright (C) 2016-2025 Dmitry Marakasov<br>
+			Copyright (C) 2016-2026 Dmitry Marakasov<br>
 			Code licensed under GPLv3+.
 			
 		</p>
